@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Index from './Index.vue'
 import VueRouter from 'vue-router'
+import './styles/index.scss'
 
 Vue.config.productionTip = false
 
@@ -12,7 +13,6 @@ var router = new VueRouter({
     {name:'index',path:'./index',component:Index}
   ]
 })
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
